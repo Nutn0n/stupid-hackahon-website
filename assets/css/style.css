@@ -1,0 +1,288 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: "Sukhumvit Set", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size:35px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size:25px;
+}
+
+h3 {
+  font-size:20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+}
+
+.deco {
+  position: fixed;
+  display: block;
+  width: auto;
+  width: 200px;
+  height: 25px;
+}
+
+.dot {
+  margin-right: 4px;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 13px;
+}
+
+.red-dot {
+  background-color:#A60000;
+}
+
+.orange-dot {
+  background-color:#FFC100;
+}
+
+.green-dot {
+  background-color:#00D544;
+}
+
+.intro {
+  height: 100%;
+    text-align: center;
+}
+
+.logo-wrapper {
+  margin-top: 10%;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.logo {
+  color: #fff;
+  width:400px;
+  border: #fff solid 5px;
+  padding: 20px;
+  width: 300px;
+  height: 100px;
+  border-radius: 25px;
+}
+
+.text-intro-wrapper {
+  display: inline-block;
+  width: 250px;
+  text-align: right;
+}
+
+.comments {
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.regis-button {
+  display: inline-block;
+  text-decoration: none;
+  color:#fff;
+  font-weight: 500;
+  width: 160px;
+  padding-top: 8px;
+  height: 58px;
+  font-size: 25px;
+  background: url(../img/button.gif) bottom center no-repeat;
+  background-size: cover;
+}
+
+.regis-button:hover {
+  opacity: 0.7;
+}
+
+.info {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.icon-wrapper {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  margin-bottom: -25px;
+  border: solid #fff 2px;
+  border-radius: 10px;
+}
+
+.info-wrapper {
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.maps-wrapper {
+  margin: 40px;
+  display: inline-block;
+  width: 700px;
+  height: 400px;
+  background-color: #333333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size:17px;
+}
+
+.glichOne {
+  color: white;
+  position: relative;
+}
+
+@keyframes glichOne-anim-1 {
+  0% {
+    clip: rect(54px, 450px, 49px, 0);
+  }
+  5.88235% {
+    clip: rect(29px, 450px, 58px, 0);
+  }
+  11.76471% {
+    clip: rect(106px, 450px, 104px, 0);
+  }
+  17.64706% {
+    clip: rect(38px, 450px, 9px, 0);
+  }
+  23.52941% {
+    clip: rect(60px, 450px, 64px, 0);
+  }
+  29.41176% {
+    clip: rect(53px, 450px, 42px, 0);
+  }
+  35.29412% {
+    clip: rect(61px, 450px, 46px, 0);
+  }
+  41.17647% {
+    clip: rect(111px, 450px, 66px, 0);
+  }
+  47.05882% {
+    clip: rect(48px, 450px, 30px, 0);
+  }
+  52.94118% {
+    clip: rect(16px, 450px, 106px, 0);
+  }
+  58.82353% {
+    clip: rect(1px, 450px, 48px, 0);
+  }
+  64.70588% {
+    clip: rect(48px, 450px, 79px, 0);
+  }
+  70.58824% {
+    clip: rect(110px, 450px, 49px, 0);
+  }
+  76.47059% {
+    clip: rect(30px, 450px, 25px, 0);
+  }
+  82.35294% {
+    clip: rect(3px, 450px, 79px, 0);
+  }
+  88.23529% {
+    clip: rect(18px, 450px, 32px, 0);
+  }
+  94.11765% {
+    clip: rect(16px, 450px, 12px, 0);
+  }
+  100% {
+    clip: rect(52px, 450px, 23px, 0);
+  }
+}
+@keyframes glichOne-anim-2 {
+  0% {
+    clip: rect(14px, 450px, 28px, 0);
+  }
+  5.88235% {
+    clip: rect(98px, 450px, 93px, 0);
+  }
+  11.76471% {
+    clip: rect(100px, 450px, 95px, 0);
+  }
+  17.64706% {
+    clip: rect(79px, 450px, 72px, 0);
+  }
+  23.52941% {
+    clip: rect(85px, 450px, 89px, 0);
+  }
+  29.41176% {
+    clip: rect(72px, 450px, 34px, 0);
+  }
+  35.29412% {
+    clip: rect(67px, 450px, 67px, 0);
+  }
+  41.17647% {
+    clip: rect(112px, 450px, 78px, 0);
+  }
+  47.05882% {
+    clip: rect(40px, 450px, 75px, 0);
+  }
+  52.94118% {
+    clip: rect(44px, 450px, 31px, 0);
+  }
+  58.82353% {
+    clip: rect(40px, 450px, 70px, 0);
+  }
+  64.70588% {
+    clip: rect(16px, 450px, 41px, 0);
+  }
+  70.58824% {
+    clip: rect(23px, 450px, 56px, 0);
+  }
+  76.47059% {
+    clip: rect(23px, 450px, 103px, 0);
+  }
+  82.35294% {
+    clip: rect(96px, 450px, 30px, 0);
+  }
+  88.23529% {
+    clip: rect(47px, 450px, 67px, 0);
+  }
+  94.11765% {
+    clip: rect(91px, 450px, 61px, 0);
+  }
+  100% {
+    clip: rect(5px, 450px, 99px, 0);
+  }
+}
+
+.glichOne:before, .glichOne:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  clip: rect(0, 0, 0, 0);
+}
+.glichOne:after {
+  left: 2px;
+  text-shadow: -1px 0 red;
+  animation: glichOne-anim-1 2s infinite linear alternate-reverse;
+}
+.glichOne:before {
+  left: -2px;
+  text-shadow: 2px 0 blue;
+  animation: glichOne-anim-2 3s infinite linear alternate-reverse;
+}
